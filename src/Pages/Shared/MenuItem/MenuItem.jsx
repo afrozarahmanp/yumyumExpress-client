@@ -6,7 +6,7 @@ const {image, price, recipe, name} = item
 
     return (
         <div className="flex space-x-4">
-            <img style={{borderRadius: '0 200px 200px 200px'}} className="w-[100px]" src={image} alt="" />
+            <img className="w-[100px] lg:w-[150px] mask mask-hexagon-2" src={image} alt="" />
             <div>
                 <h3 className="uppercase">{name}---------</h3>
                 <p>{recipe}</p>
